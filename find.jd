@@ -6,7 +6,7 @@ You can write the function in java or javascript programming language.
 # input parameters:
 now: datetime, current datetime. e.g: '2019-10-11T08:13:07+0800'
 schedule: an arraylist of map object. which specified the day open or close and also the start 
-and end of working hours
+and end of working hours are after this sentence
 [
 	{"open": false, "open_at": "", close_at: ""}, // sunday
 	{"open": true, "open_at": "09:00", close_at: "18:00"}, // monday
